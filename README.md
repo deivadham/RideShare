@@ -10,7 +10,8 @@ This project primarily employed MERN stack:
 
 # Ride Share
 Login Page:
-<img width="263" alt="Screen Shot 2023-07-20 at 2 34 42 PM" src="https://github.com/deivadham/RideShare/assets/34385490/2376abdd-b876-46cf-9a8e-1428b66163fb">
+<img width="657" alt="Screen Shot 2023-07-23 at 9 23 47 PM" src="https://github.com/deivadham/RideShare/assets/34385490/2a4b1d33-fac8-4087-94ad-c3eb6fb84194">
+
 
 Sign Up Page:
 <img width="901" alt="Screen Shot 2023-07-23 at 9 24 14 PM" src="https://github.com/deivadham/RideShare/assets/34385490/f100a545-97b4-463b-a874-aaf25712011f">
