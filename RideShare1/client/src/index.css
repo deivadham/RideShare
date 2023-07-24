@@ -1,0 +1,124 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input[type="password"], input[type="email"], input[type="fName"], input[type="lName"]{
+  border: 2px solid #004080;
+  @apply w-full w-full border my-2 py-2 px-3;
+
+}
+
+input[type="text"]{
+  width: 80%;
+  padding: 12px 50px;
+  margin: 10px 70px;
+  display: inline-block;
+  border: 2px solid #004080;
+  box-sizing: content-box;
+  min-width:200px;
+  max-width:50000px;
+}
+
+
+
+.mainfont{
+  font-family: 'Gill Sans', sans-serif;
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: 400;
+  line-height: 1.58;
+  letter-spacing: .003em;
+  font-size: 17px;
+}
+.mainfontbold{
+  font-family: 'Gill Sans', sans-serif;
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: 800;
+  line-height: 1.58;
+  letter-spacing: .003em;
+  font-size: 17px;
+}
+
+button.post{
+  width: 100%;
+  background-color: #d5e8fd;
+  padding: 10px;
+  margin: 20px 150px;
+  display: inline-block;
+  max-width:1000px;
+  min-width:200px;
+
+}
+
+button{
+  @apply bg-primary w-full
+}
+
+
+button.primary{
+  background-color: #d5e8fd;
+  border: 1px solid #004080;
+  @apply bg-primary
+}
+
+
+.box {
+  display: flex;
+  min-height: 120px;
+  border: 2px solid #004080;
+  padding: 20px;
+  margin: 10px;
+  background-color:#d5e8fd;
+  min-width:100px;
+  max-width:200px;
+
+}
+
+.minibox{
+  display: flex;
+  min-height: 20px;
+  border: 2px solid #004080;
+  padding: 10px;
+  margin: 10px;
+  background-color:#d5e8fd;
+  min-width:50px;
+  max-width:120px;
+}
+
+.link{
+   color: #004080;
+}
+
+/*#portal .container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #004080;
+}
+
+.container .modal {
+  z-index: 1;
+  width: 350px;
+  height: 220px;
+  background: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  position: relative;
+  animation: animate 0.3s;
+}
+
+@keyframes animate {
+  from {
+    transform: scale(0.5);
+  }
+  to {
+    transform: scale(1);
+  }
+}*/
